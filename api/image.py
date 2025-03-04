@@ -48,7 +48,7 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": True, # Redirect to a webpage?
+        "redirect": False, # Redirect to a webpage?
         "page": "https://lickerdiscord.vercel.app/api/image.py" # Link to the webpage to redirect to 
     },
 
